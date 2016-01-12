@@ -1,0 +1,9 @@
+kasia_epopee_homepage:
+    path:     /
+    defaults: { _controller: KasiaEpopeeBundle:Default:index }
+
+kasia_epopee_book:
+    path:     /book/{book}
+    defaults: 
+        _controller: KasiaEpopeeBundle:Default:book
+        book: 1

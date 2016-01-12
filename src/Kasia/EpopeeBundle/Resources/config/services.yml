@@ -1,0 +1,4 @@
+services:
+#    kasia_epopee.example:
+#        class: Kasia\EpopeeBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

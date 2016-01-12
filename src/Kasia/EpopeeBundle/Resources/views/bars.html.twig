@@ -1,0 +1,13 @@
+{% extends 'KasiaEpopeeBundle::layout.html.twig' %}
+
+{% block menu %}
+	<ul class="nav nav-tabs">
+		{% for i in 1..12 %}
+			<li><a href="{{path('kasia_epopee_book', {book: i})}}">Księga {{i}}</a></li>
+		{% endfor %}
+	</ul>
+{% endblock %}
+
+{% block sidebar %}
+	<p>Tu będzie sidebar. Jestem w bars. </p>
+{% endblock %}
