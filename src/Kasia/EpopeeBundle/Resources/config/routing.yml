@@ -7,3 +7,8 @@ kasia_epopee_book:
     defaults: 
         _controller: KasiaEpopeeBundle:Default:book
         book: 1
+
+kasia_epopee_reflection_form:
+	path: /
+	defaults:
+		{ _controller: KasiaEpopeeBundle:Reflection:insert }
